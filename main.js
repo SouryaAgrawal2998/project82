@@ -27,6 +27,6 @@ function my_mousemove(e) {
         ctx.stroke();
     }
 }
-function clearArea() {
-    ctx.canvas(0, 0, canvas.width, canvas.height);
+function clearArea(){
+    ctx.clearRect(0,0, ctx.canvas.width, ctx.canvas.height);
 }
